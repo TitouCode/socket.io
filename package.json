@@ -1,0 +1,22 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --watch . 8080"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-persist": "^3.0.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  },
+  "description": "Server",
+  "author": "TitouCode",
+  "engines": {
+    "node": ">= 8.12.0",
+    "npm": ">= 6.1.4"
+  }
+}
