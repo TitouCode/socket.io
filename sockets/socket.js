@@ -34,6 +34,7 @@ class SocketLoader {
     loadSockets () {
         const funcs = this.loadModules();
         this.io.on('connection', (socket) => {
+            console.log('Socket Connected');
             const keys = Object.keys(funcs);
             for (let k = 0; k < keys.length; k++) {
                 const key = keys[k];
